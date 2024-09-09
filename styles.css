@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('fondo.png'); /* Nombre del fondo cambiado a fondo.png */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.logo-container {
+    margin-left: 20px;
+}
+
+.logo {
+    max-width: 50px; /* Tamaño reducido del logo */
+    border-radius: 50%;
+}
+
+.title-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin: 0; /* Asegura que el título esté centrado */
+}
+
+.social-title {
+    margin: 30px 0;
+}
+
+.social-title h2 {
+    font-size: 2.2em;
+}
+
+.social-title p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #ddd;
+}
+
+.social-links {
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-item {
+    width: 450px;
+    margin: 15px 0;
+}
+
+.social-item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.479);
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    position: relative;
+    height: 80px;
+}
+
+.social-item a:hover {
+    background-color: rgba(255, 255, 255, 0.829);
+}
+
+.social-icon {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 15px;
+}
+
+a span {
+    font-size: 1.8em;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.social-item a:hover span {
+    color: #333;
+}
+
+footer {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.322);
+    color: white;
+    font-size: 0.9em;
+}
+/*que aumenten de tamaño las redes*/
+/*que tengan un gradiante
